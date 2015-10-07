@@ -1,0 +1,68 @@
+/****************************************
+  Defaults
+*****************************************/
+body {
+	background-color: #0081C6;
+	font-family: Open Sans, sans-serif;
+}
+h1 {
+	font-family: Allan, cursive;
+}
+/****************************************
+  Layout
+*****************************************/
+.landing-page {
+	display: flex;
+}
+.welcome-box, .sign-up-form {
+	border: 5px solid #7CC0E2;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+.welcome-box {
+	flex: 1;
+	margin-right: 10px;
+	min-height: 200px;	
+}
+.sign-up-form {
+	flex: 2;
+	padding: 10px;
+}
+.form-row {
+	display: flex;
+	border-bottom: 2px solid #D6D6D6
+}
+.input-label {
+	flex: 1;
+	text-align: right;
+}
+.input-field {
+	flex: 4;
+	bottom-border: 2px solid #D6D6D6;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+/****************************************
+  Components
+*****************************************/
+.action-button, .red-button {
+	padding:5px 10px; 
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.action-button {
+	background-color: #95D25B;
+	box-shadow: 2px 2px  #4D7427;	
+}
+.red-button {
+	background-color: #D10000;
+	box-shadow: 2px 2px  #6C201F;
+}
+/****************************************
+  Inherited Styles
+*****************************************/
+
+/****************************************
+  Helpers aka Utilities
+*****************************************/

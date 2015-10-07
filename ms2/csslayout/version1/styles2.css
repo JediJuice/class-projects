@@ -1,0 +1,97 @@
+/****************************************
+  Defaults
+*****************************************/
+
+body {
+	background-color: #0081C6;	
+}
+
+/****************************************
+  Layout
+*****************************************/
+.container, .inputText, .contactForm, .button, .signupform {
+	display: flex;
+	/*border: 5px solid red;*/
+	}
+.welcomeBox {
+	flex: 3;
+	min-height: 200px;   
+} 
+.signupForm {
+	flex: 6;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.welcomeBox, .signupForm {
+	background-color: #fff;
+	border: 1px solid #85C5E4;
+	padding: 20px;
+}
+.inputText {
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.marginTextBox, .marginInputBox {
+	flex-direction: column;
+}
+
+.marginTextBox {
+
+}
+
+.marginInputBox {
+
+}
+.inputLabel, .inputField {
+     
+}
+
+.inputText {
+	align-items: flex-start;
+	margin-left: 0px;
+
+}
+.inputForm {
+	align-items: center;
+
+}
+
+
+/*.borderBox {
+	background-color: purple;
+}
+*/
+/****************************************
+  Components
+*****************************************/
+h1 {
+	font-family: Allan, cursive;
+}
+.welcomeBox p, .inputFields, .button {
+	font-family: Open Sans, sans-serif;
+}
+.submitButton, .cancelButton {
+	padding:5px 10px; 
+	border-radius: 10px;
+	margin-right: 5px;
+}
+.submitButton, button {
+	background-color: #95D25B;
+	box-shadow: 5px 5px 2px #4D7427;
+	
+}
+.cancelButton {
+	background-color: #D10000;
+	box-shadow: 5px 5px 2px #6C201F;
+}
+/****************************************
+  Inherited Styles
+*****************************************/
+
+
+
+
+/****************************************
+  Helpers aka Utilities
+*****************************************/

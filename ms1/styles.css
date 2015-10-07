@@ -1,0 +1,44 @@
+body {
+	background-image: url(images/seamless_paper.png);
+}
+
+header, footer {
+	background-color: white;
+	padding: 10px 10px; 
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+header a {
+	text-decoration: none; 
+	color: black;
+}
+
+nav {
+	background-color: black;
+	padding: 2px 0px 4px 4px; 	
+} 
+
+nav a {
+	color: white;
+}
+	
+.browse {	
+	text-decoration: none;
+}
+
+.products {
+	font-size: large;
+}
+
+div ul li {
+	color: red;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
