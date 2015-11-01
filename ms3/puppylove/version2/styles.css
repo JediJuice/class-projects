@@ -1,0 +1,174 @@
+
+/****************************************
+  Testing
+*****************************************/
+
+
+/****************************************
+  Inherited Syles
+*****************************************/
+
+html {
+    box-sizing: border-box;
+    color: #444;
+    font: 12pt 'Open Sans', Arial;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+
+/****************************************
+  Defaults -- all tags 
+*****************************************/
+/*body {
+  max-width: 1080px;
+  margin: 0 auto;
+  float: none;
+}*/
+/****************************************
+  Layout
+*****************************************/
+
+
+.hero {
+  background-color: aqua;
+}
+
+
+.primary-content {            /*is flexing on the media obj left and right */
+  background-color: purple;
+}
+
+
+.media-obj {
+  background-color: fuchsia;
+  height: 50%;
+  width:100%;
+  display: flex;
+}
+
+.media-obj > div {
+
+  flex: 2;
+  /*flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;*/
+}
+
+}
+.media-obj-left {
+  background-color: lime;
+  height: 50%;
+  padding: 5px;
+  width:100%;
+  flex:2;
+}
+
+.media-obj-right {
+  background-color: navy;
+  height: 50%;
+  width:100%;
+  flex:3;
+  display: flex;
+  flex-wrap: wrap;                      /*all the items to wrap as needed */
+  flex-direction: row;                   /* in a row from right to left*/
+  justify-content: flex-start;          /*items are placed at the beginging of the line*/
+  align-items: baseline;                /*items are aligned such as their baselines align*/
+  align-content: space-between;
+}
+
+.media-obj-left > div {
+    background-color: red;
+    height: 100px;
+    display: flex;         
+  
+}
+
+.media-obj-right > div {
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;                   /* in a row from right to left*/
+  justify-content: flex-start;          /*items are placed at the beginging of the line*/
+  align-items: baseline;                /*items are aligned such as their baselines align*/
+  align-content: space-between;
+
+}
+
+.media-obj-left-img {
+    background-color: silver;
+    height: 100px;
+    width: 100px;
+   
+}
+
+.media-obj-left-text {
+    text-align: justify;
+    width: 100%;
+    background-color: yellow;
+    
+}
+
+.media-obj-right-img img{
+    max-height: 150px;
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.media-obj-right-text > p {
+    text-align: justify;
+    width: 200px;
+}
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Lobster Two', cursive;*/
+/****************************************
+  Components
+*****************************************/
+.primary-nav li {
+    background-color: green;
+    display: inline;
+    list-style: none;
+}
+
+/*.primary-nav {
+    position: relative;
+    left: 20%;
+}*/
+
+input.search {
+    position: relative;
+    left: 60%;
+    background-color: yellow;
+}
+
+
+input.search-btn {
+    position: relative;
+    left: 60%;
+    background-color: yellow;
+}
+
+header.primary-content > div {
+
+}
+
+.hero-header > p {
+    margin: 0;
+    padding-left: 34%;
+}
+
+.hero-header > p:last-child {
+    margin: 0;
+    padding-left: 10%;
+}
+/****************************************
+  Helpers
+*****************************************/

@@ -45,17 +45,17 @@ h1 {
 /****************************************
   Components
 *****************************************/
-.action-button, .red-button {
+.btn {
 	padding:5px 10px; 
 	border-radius: 10px;
 	margin-right: 5px;
 	margin-top: 10px;
 }
-.action-button {
+.btn.action-button {
 	background-color: #95D25B;
 	box-shadow: 2px 2px  #4D7427;	
 }
-.red-button {
+.btn.warning-button {
 	background-color: #D10000;
 	box-shadow: 2px 2px  #6C201F;
 }

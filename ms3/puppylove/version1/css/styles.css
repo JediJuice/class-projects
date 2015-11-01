@@ -1,0 +1,111 @@
+
+/****************************************
+  Testing
+*****************************************/
+
+
+/****************************************
+  Inherited Syles
+*****************************************/
+
+html {
+    box-sizing: border-box;
+    color: #444;
+    font: 12pt 'Open Sans', Arial;
+    font-weight: 300;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+
+/****************************************
+  Defaults -- all tags 
+*****************************************/
+
+
+/****************************************
+  Layout
+*****************************************/
+body {
+  display: flex;
+  flex-direction:column;
+}
+
+.hero {
+  flex: 1;
+}
+
+
+.primary-content {
+  flex: 2;
+  background-color: purple;
+  height: 20%;
+  width:100%;
+}
+
+body > div {
+  background-color: aqua;
+  height: 20%;
+  width:100%;
+  position: absolute;
+}
+
+header > a {
+  background-color: red;
+}
+
+/*header > div {
+  position:relative;
+  padding-left: 70%;
+}*/
+
+input button {
+
+}
+
+input {
+    position: absolute;
+    right: 15%;
+    top: 0;
+}
+
+button {
+    position: absolute;
+    right: 8%;
+    top: 0;
+}
+
+
+
+nav.primary-nav {
+    padding-left: 40%;
+}
+
+nav li {
+  background-color: green;
+  display: inline;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+
+
+
+
+/****************************************
+  Components
+*****************************************/
+
+
+
+
+/****************************************
+  Helpers
+*****************************************/

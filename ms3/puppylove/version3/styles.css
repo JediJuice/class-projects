@@ -1,0 +1,253 @@
+
+/****************************************
+  Inherited Syles
+*****************************************/
+
+html {
+    box-sizing: border-box;
+    color: #444;
+    font: 12pt 'Open Sans', Arial;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+
+/****************************************
+  Defaults -- all tags 
+*****************************************/
+
+
+/****************************************
+  Layout
+*****************************************/
+
+.hero {
+  background: radial-gradient(rgba(3, 143, 170, 0.17), #008DAA), url('/images/bg.jpg');
+  background-size: cover;
+}
+
+.hero-header {
+  max-width: 80%;
+  margin: auto;
+}
+
+.hero-header > div {
+  position: relative;
+}
+
+.primary-nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
+  color: white;
+  border-top: 1px solid #77C1C8;
+  border-bottom: 1px solid #66BAC1;
+  padding: 1%;
+}
+
+/* Primary content section center of page */
+
+.banner {
+  margin-top: 26%;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center
+}
+
+.tagline {
+  font-size: 32pt;
+}
+
+.brand-promise {
+  font-size: 14pt;
+  margin-top: -14px;
+}
+
+.primary-content {
+  background-color: #D7E1E7;
+}
+
+.primary-content-header {
+  max-width: 76%;
+  margin-left: 12%;
+  display: flex;
+}
+
+.media-obj {
+  display: flex;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+/* Primary content seciton bottom left */
+.sold {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Primary content seciton bottom right */
+.tiles-right {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+/*Sales Header in the middle of the bottom section*/
+.sales-header {
+  flex: 1; 
+  margin: 1%;
+  margin-top: -2%;
+  background-color: white;
+  border-top: 5px solid #EC4D00;
+  text-align: center;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+.sales-header p:first-child {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.sales-header:nth-child(2) {
+  border-top: 5px solid #8CD133;
+}
+
+.sales-header:nth-child(3) {
+  border-top: 5px solid #0091D6;
+}
+
+.primary-nav li {
+  font-size: 16pt;
+}
+
+/****************************************
+  Components
+*****************************************/
+
+.logo {
+  font-family: 'Lobster', cursive;
+  font-size: 44pt;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.search-box {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.search-box .search {
+  background-color: transparent;
+  border: solid rgba(255,255,255,0.3) 1px;
+}
+
+.search-box .search-btn {
+  background-color: red;
+  border: none;
+  border-radius: 3px; 
+  color: white;
+}
+
+.sales-header input {
+  border: 3px solid;
+  border-radius: 5px;
+  background: transparent;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/*Media objects for puppies */
+
+.sold-puppies {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.sold-puppies .sold-puppies-img {
+  flex: 1;
+  background-size: cover;
+  height: 121px;
+}
+
+.sold-puppies-text {
+  flex: 2;
+  background-color: #E8F3F9;
+  text-align: left;
+  font-weight: 600;
+  padding: 3%;
+}
+
+.sold-puppies-text h3 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #51B1E2;
+  font-size: 16pt;
+}
+
+/*Tile objects for puppies*/
+
+.forsale {
+  width: 200px;
+  margin: 10px;
+  width: calc(33.333% - 20px);
+  background-color: #fff;
+}
+
+.forsale-img {
+  height: 200px;
+  background-size: cover;
+}
+
+.forsale h3 {
+  background-color: #8CD133;
+  color: #437405;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  padding-left: 3%;
+}
+
+.forsale-text {
+  background-color: #E3EFD5;
+  color: #476F29;
+  font-weight: 600;
+  text-align: left;
+  padding: 3%;
+}
+
+.forsale-text h3 {
+  margin: 0%;
+  color: #447307;
+  background: #8CD133;
+}
+
+/****************************************
+  Helpers
+*****************************************/
+
+.get-help-btn {
+  border-color: #EC4D00;
+  color: #EC4D00;
+  }
+
+.get-food-btn {
+  color: #8CD133;
+  font-weight: 600;
+  }
+
+  .sell-dog-btn {
+  border-color: #0091D6;
+  color: #0091D6;
+  }

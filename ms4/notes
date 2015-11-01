@@ -1,0 +1,52 @@
+notes
+
+Bower is like an app store for front end libraries using javaScript
+
+Gulp is for automating your work flow on you machine automating the task
+that you commonly  use on a new 
+
+
+NPM is the app store for node.js server
+
+
+<main>
+    
+</main>
+
+
+<script id="post-template" type="text/x-handlebars-template">
+    <div class="userPost">
+        <div class="author">{{author}}</div>
+        <div class="website">{{website}}</div>
+        <div class="body">{{body}}</div>
+    </div>
+</script>
+
+
+
+
+$(function() {
+    var root = 'http://jsonplaceholder.typicode.com'
+    
+    var postTmpl = Handlebars.compile($('#post-template').html())
+
+    $.get(root + '/users')
+        .then(function(users){
+            users.forEach(function (user){
+            $.get(root + '/users/' + user.id + '/posts')
+                .then(function (userPosts) {
+                    userPosts.forEach(function (userPost) {
+                        var context = {
+                            author: user.name,
+                            website: user.website,
+                            body: userPost.body
+                        }
+                        $('main').append(postTmpl(context))
+                    })
+                })  
+            })
+        })
+        .fail(function (){
+            console.log('I got an error!')
+        })
+})

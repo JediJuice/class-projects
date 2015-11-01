@@ -1,0 +1,53 @@
+//var checkit = $('#show-completed').val()
+		 		 var checkit = $('#show-completed').is(':checked')
+		 		 var allcheckit =$('')
+
+
+			 	function hide() {
+			 		 if (!$('#show-completed').is(':checked')) {
+			 		 	div.addClass('remove::before')
+			 			console.log(checkit);
+			 		 } 
+
+
+
+
+
+				}; // closing tag for CHECKIT function
+
+			hide(checkit);
+
+
+            function hide() {
+            	if (!$('#show-completed').is(':checked')) {
+            		$('.task > input:checked').parent().hide();
+            	}
+            };
+
+            $('div > input').on('click',hide)
+
+
+
+
+			var show =  $('#show-completed').val()
+
+            $('#show-completed').on('click', function() {
+            		if (!$('#show-completed').is(':checked')) {
+            		
+			 		 	$('.task > input:checked').parent().show();
+			 		} else {
+			 		 	$('.task > input:checked').parent().hide();
+			 		}
+            
+            });
+
+
+
+
+			function hide() {
+			            	if (!$('#show-completed').is(':checked')) {
+			            		$('.task > input:checked').parent().hide();
+			            	}
+			            };
+
+			            $('div > input').on('click',hide)

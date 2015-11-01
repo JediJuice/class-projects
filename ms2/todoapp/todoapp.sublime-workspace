@@ -1,0 +1,301 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ma",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"make",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/harlan/rockit/lessons/projects/ms2/todoapp/main.js",
+		"/home/harlan/rockit/lessons/projects/ms2/todoapp/styles.css",
+		"/home/harlan/rockit/lessons/jquery/jquery_basics.sublime-workspace",
+		"/home/harlan/rockit/lessons/practice/ms2/styles.css",
+		"/home/harlan/rockit/lessons/practice/ms2/questions.html",
+		"/home/harlan/rockit/lessons/practice/ms2/functions.js",
+		"/home/harlan/rockit/lessons/javasc/index.html",
+		"/home/harlan/.config/sublime-text-2/Packages/User/ready.sublime-snippet",
+		"/home/harlan/.config/sublime-text-2/Packages/User/htmljq.sublime-snippet",
+		"/home/harlan/rockit/lessons/jquery/jQuery_basics/styles.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version2/styles.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/styles.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/index.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version2/index.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version2/styles2.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version2/index2.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version1/styles2.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/styles2.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/index2.html",
+		"/home/harlan/rockit/lessons/jquery/styles.css",
+		"/home/harlan/rockit/lessons/jquery/brigClass.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/csslayout2/index.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/csslayout2/styles.css",
+		"/home/harlan/rockit/lessons/css/flexfolder/jquery.js",
+		"/home/harlan/rockit/lessons/jquery/jbasics/main.js",
+		"/home/harlan/rockit/lessons/jquery/jbasics/styles.css",
+		"/home/harlan/rockit/lessons/jquery/jbasics/notes.js",
+		"/home/harlan/rockit/lessons/javasc/functions/Get up",
+		"/home/harlan/rockit/lessons/javasc/functions/notes.txt",
+		"/home/harlan/.config/sublime-text-2/Packages/User/con.sublime-snippet",
+		"/home/harlan/rockit/lessons/javasc/functions/index.html",
+		"/home/harlan/rockit/lessons/javasc/functions/dairyCow.js",
+		"/home/harlan/rockit/lessons/javasc/functions/math.js",
+		"/home/harlan/rockit/lessons/javasc/index.js",
+		"/home/harlan/rockit/lessons/javasc/notes.",
+		"/home/harlan/rockit/lessons/php/php_products/products.php",
+		"/home/harlan/rockit/lessons/php/php_products/testing.php",
+		"/home/harlan/rockit/lessons/php/php_products/testing2.php",
+		"/home/harlan/rockit/lessons/php/php_products/index.php",
+		"/home/harlan/rockit/lessons/php/php_products/browse.php",
+		"/home/harlan/rockit/lessons/practice/blocks/styles.css",
+		"/home/harlan/rockit/lessons/practice/blocks/process.php",
+		"/home/harlan/rockit/lessons/practice/blocks/index.php",
+		"/home/harlan/rockit/lessons/php/php_products/old_code.txt",
+		"/home/harlan/rockit/lessons/php/php_products/contact.php",
+		"/home/harlan/rockit/lessons/php/php_products/styles.css",
+		"/home/harlan/rockit/lessons/php/php_products/header.php",
+		"/home/harlan/rockit/lessons/php/php_products/footer.php",
+		"/home/harlan/rockit/lessons/php/php_products/practice.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/practice.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/index.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/footer.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/header.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/header.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/contact.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/browse.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/products.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/styles.css",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS/index.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS/stylesheet.css",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS2/stylesheet.css",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS2/index.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS2/mybioCSS2.sublime-workspace",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS2/mybioCSS2.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS/mybioCSS.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/stylesheet.css",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/RockIt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$_GET['product']"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/harlan/rockit/lessons/css/css_resets/resets.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
