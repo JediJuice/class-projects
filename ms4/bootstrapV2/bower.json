@@ -1,0 +1,21 @@
+{
+  "name": "bootstrapV2",
+  "homepage": "https://github.com/JediJuice/class-projects",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "highcharts": "highcharts-release#~4.1.9"
+  }
+}

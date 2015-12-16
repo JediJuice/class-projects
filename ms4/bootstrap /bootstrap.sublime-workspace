@@ -1,0 +1,321 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\n    <title>Bootstrap 101 Template</title>\n\n    <!-- Bootstrap -->\n    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n      <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n  </head>\n  <body>\n    <h1>Hello, world!</h1>\n\n    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>\n    <!-- Include all compiled plugins (below), or include individual files as needed -->\n    <script src=\"js/bootstrap.min.js\"></script>\n  </body>\n</html>",
+			"file": "index.html",
+			"file_size": 541,
+			"file_write_time": 1446481686000000,
+			"settings":
+			{
+				"buffer_size": 1182,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ma",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Snippet: ",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"ha",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"mak",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"han",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"make",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/harlan/rockit/lessons/class-projects/ms4/index.html",
+		"/home/harlan/rockit/lessons/jquery/jacidtest2/styles.css",
+		"/home/harlan/rockit/lessons/jquery/jacidtest2/written steps",
+		"/home/harlan/rockit/lessons/jquery/jacidtest2/animals.js",
+		"/home/harlan/rockit/lessons/jquery/jacidtest2/notes.js",
+		"/home/harlan/rockit/lessons/jquery/jacidtest2/stooges.js",
+		"/home/harlan/.config/sublime-text-2/Packages/User/click.sublime-snippet",
+		"/home/harlan/rockit/lessons/jquery/jacidtest2/main2",
+		"/home/harlan/rockit/lessons/practice/ms3/twitterV1/index.html",
+		"/home/harlan/rockit/lessons/class-projects/ms3/twitter/twitter notes",
+		"/home/harlan/rockit/lessons/class-projects/ms3/puppylove/testing/styles.css",
+		"/home/harlan/rockit/lessons/class-projects/ms3/puppylove/css/styles.css",
+		"/home/harlan/rockit/lessons/class-projects/ms3/puppylove/testing/index.html",
+		"/home/harlan/rockit/lessons/projects/ms3/puppylove/index.html",
+		"/home/harlan/rockit/lessons/css/tiles/puppylove.sublime-project",
+		"/home/harlan/.config/sublime-text-2/Packages/User/htmljq.sublime-snippet",
+		"/home/harlan/rockit/lessons/handlebars/main.js",
+		"/home/harlan/rockit/lessons/handlebars/index.html",
+		"/home/harlan/rockit/lessons/projects/ms2/todoapp/js/mainVersion2.js",
+		"/home/harlan/rockit/lessons/projects/ms2/todoapp/js/mainVersion3.js",
+		"/home/harlan/rockit/lessons/projects/ms2/todoapp/css/styles.css",
+		"/home/harlan/rockit/lessons/projects/ms2/todoapp/js/mainVersion1.js",
+		"/home/harlan/rockit/lessons/practice/ms2/questions.html",
+		"/home/harlan/rockit/lessons/practice/ms2/functions.js",
+		"/home/harlan/rockit/lessons/practice/ms2/styles.css",
+		"/home/harlan/rockit/lessons/projects/ms2/todoapp/index.html",
+		"/home/harlan/rockit/lessons/jquery/jquery_basics.sublime-workspace",
+		"/home/harlan/rockit/lessons/javasc/index.html",
+		"/home/harlan/.config/sublime-text-2/Packages/User/ready.sublime-snippet",
+		"/home/harlan/rockit/lessons/jquery/jQuery_basics/styles.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version2/styles.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/styles.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/index.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version2/index.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version2/styles2.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version2/index2.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/version1/styles2.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/styles2.css",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/index2.html",
+		"/home/harlan/rockit/lessons/jquery/styles.css",
+		"/home/harlan/rockit/lessons/jquery/brigClass.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/csslayout2/index.html",
+		"/home/harlan/rockit/lessons/projects/ms2/csslayout/csslayout2/styles.css",
+		"/home/harlan/rockit/lessons/css/flexfolder/jquery.js",
+		"/home/harlan/rockit/lessons/jquery/jbasics/main.js",
+		"/home/harlan/rockit/lessons/jquery/jbasics/styles.css",
+		"/home/harlan/rockit/lessons/jquery/jbasics/notes.js",
+		"/home/harlan/rockit/lessons/javasc/functions/Get up",
+		"/home/harlan/rockit/lessons/javasc/functions/notes.txt",
+		"/home/harlan/.config/sublime-text-2/Packages/User/con.sublime-snippet",
+		"/home/harlan/rockit/lessons/javasc/functions/index.html",
+		"/home/harlan/rockit/lessons/javasc/functions/dairyCow.js",
+		"/home/harlan/rockit/lessons/javasc/functions/math.js",
+		"/home/harlan/rockit/lessons/javasc/index.js",
+		"/home/harlan/rockit/lessons/javasc/notes.",
+		"/home/harlan/rockit/lessons/php/php_products/products.php",
+		"/home/harlan/rockit/lessons/php/php_products/testing.php",
+		"/home/harlan/rockit/lessons/php/php_products/testing2.php",
+		"/home/harlan/rockit/lessons/php/php_products/index.php",
+		"/home/harlan/rockit/lessons/php/php_products/browse.php",
+		"/home/harlan/rockit/lessons/practice/blocks/styles.css",
+		"/home/harlan/rockit/lessons/practice/blocks/process.php",
+		"/home/harlan/rockit/lessons/practice/blocks/index.php",
+		"/home/harlan/rockit/lessons/php/php_products/old_code.txt",
+		"/home/harlan/rockit/lessons/php/php_products/contact.php",
+		"/home/harlan/rockit/lessons/php/php_products/styles.css",
+		"/home/harlan/rockit/lessons/php/php_products/header.php",
+		"/home/harlan/rockit/lessons/php/php_products/footer.php",
+		"/home/harlan/rockit/lessons/php/php_products/practice.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/practice.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/index.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/footer.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/header.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/header.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/contact.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/browse.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/products.php",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/php_products/styles.css",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS/index.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS/stylesheet.css",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS2/stylesheet.css",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS2/index.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS2/mybioCSS2.sublime-workspace",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS2/mybioCSS2.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS/mybioCSS.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/mybioCSS.html",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/stylesheet.css",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/adm1n!/AppData/Roaming/Sublime Text 3/Packages/User/RockIt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			")\n",
+			"userListItemSource",
+			"posts",
+			"png",
+			"$_GET['product']"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/harlan/rockit/lessons/css/css_resets/resets.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true
+}

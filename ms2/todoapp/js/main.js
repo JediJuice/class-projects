@@ -8,15 +8,12 @@ $(document).ready(function() {
 // As a user, I expect the default importance level to be "normal"
 // As a user, I should be able to checkmark individual tasks to indicate the task was completed
 // As a user, I should be able to uncheck individual tasks to undo the completed state
-
-
 // ***Question: what substring syntax. how do I count the task-1 numbers? Do I need to? 
 // 	how does it know what task number already there, my css selector in the jquery object?
 
 	var taskNumber = 3; // creating a number is the global scope
 	// ********************target the form for the logic********************************
 
-		
 		$('#create-btn').on('click', function() {
 			// increment the number
 			taskNumber++ 
@@ -46,7 +43,6 @@ $(document).ready(function() {
 	
 			$('#tasks').append(div);
 
-
 	//change the CSS text to the red. the value is a string of 'high' or 'low'
 		 	function color() {
 		 		if (importance === 'high') {
@@ -57,7 +53,6 @@ $(document).ready(function() {
 		 	} // closing tag for COLOR function
 
 			color(importance);
-
 
 		}); // Closing tag for Create a button
 
