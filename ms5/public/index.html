@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Sour Toe</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Exo+2|Bitter:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+    <script id="user-obj" type="text/x-handlebars-template">
+            <div class="product-tile-wrapper">
+                <div class="one">
+                    <div class="two">
+                        <div class="testimonial">{{testimonial}}</div>
+                        <div class="two-a"><img src="http://localhost:3000/uploaded_images/{{userImage}}" alt="" height="100px" width="100px" align="middle"></div>
+                        <div class="two-b">{{firstName}}</div>
+                    </div>
+                </div>
+            </div>
+    </script>
+  </head>
+  <body>
+    <header>
+        <div>
+              <div><a class="logo" href="." name="logo"></a></div>
+              <div><a class="contact-us" href=""name="logo">Contact Us</a></div>
+              <!--  header navigation begin! -->
+              <div class="primary-nav">
+                    <ul>
+                          <li class="home-nav"><a href=".">Home</a></li>
+                          <li class="dash-nav"><a href="dashboard.html">Dashboard</a></li>
+                          <li class="food-nav"><a href="locations.html">Locations</a></li>
+                          <hr />
+                    </ul>
+              </div>  
+               <!--  header navigation begin end! -->
+        </div>
+        <div class="hero">
+            <div class="hero-container">
+                    <video autoplay loop id="video">
+                            <source src="../images/bigstock.mp4" type="video/mp4">
+                    </video>
+                    <div class="headline">
+                          <h1 class="tagline">What our customers are saying</h1>            
+                    </div>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <div class="how-to-wrapper">
+            <div>
+                <p>Choose a person from your friends list They get a text message and an email and a Smile!</p>
+            </div>
+            <div>
+                <p>At any participating location and redeem or save for later. Happy hour pricing in many locations</p>
+            </div>
+            <div>
+                <p>Debit, Credit, or Bitcoin, is turned into a QR code and sent to a particular location for redemption</p>
+            </div>
+        </div>
+        <div class="hero-2"><img src="http://localhost:3000/images/locations/5.png" alt="" height="500px" width="100%">
+            <div class="headline-two">
+                <h1 class="tagline-two"><i class="fa fa-quote-left fa-5x"></i></h1> 
+                <p>I am able to stay engaged like never before. The holidays are great with this.</p>      
+            </div>
+        </div>
+        <div class="hero-3-tiles"></div>
+        <div id="map"></div>
+        <footer>
+            <div class="footer-logo"><img src="./images/logo_white.png" height="96px" width="96px" alt=""></div>
+            <div class="footer-copy"><i class="fa fa-copyright fa-2x"></i>opywrite 2015 Sour Toe inc</div>
+            <div class="footer-social">
+                <a class="socialmedia" href=""name="LinkedIn"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                <a class="socialmedia" href=""name="Pinterest"><i class="fa fa-pinterest-square fa-3x"></i></a>
+                <a class="socialmedia" href=""name="Google"><i class="fa fa-google-plus-square fa-3x"></i></a>   
+            </div> 
+        </footer>
+    </main>
+       <!-- google maps -->   
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAckidZr3EW2hAleldczmGBJ5Btr-FmF7E&signed_in=true">
+    </script>
+    <script src="scripts/gmaps.js"></script>
+    <script src="scripts/index.js"></script>
+  
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
+</html>

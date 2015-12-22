@@ -1,0 +1,137 @@
+/****************************************
+  Layout
+*****************************************/
+header {
+  margin-bottom: 10%;
+}
+
+/*Navigation bar**************************************************************************/
+
+.nav-wrapper {
+  margin-bottom: 13%;
+}
+
+.logo {
+  background-color: grey;
+  margin: 5px;
+  position: fixed;
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  width: 219px;
+  height: 137px;
+}
+
+.primary-nav {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.dash-nav:hover ~ hr {
+  margin-left: 25%;
+}
+
+.food-nav:hover ~ hr {
+  margin-left: 50%;
+}
+
+.drink-nav:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background: #151414;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+/*navigation end********************************************************************/
+
+main {
+  display: flex;
+}
+
+.left-panel {
+  flex: 1;
+}
+
+.media-obj-wrapper {
+  background-color: silver;
+  display: flex;
+  
+}
+
+
+.location-obj {
+  background-color: navy;
+  background-image: url(../images/hector.jpg);
+  background-image: url(https://lh3.googleusercontent.com/-u6F-lIZI1_c/AAAAAAAAAAI/AAAAAAAAAC8/F2kxq1_4Njk/s80-c-k-no/photo.jpg);
+  background-size: 100px 110px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 110px;
+}
+
+
+.menu-obj {
+  background-color: lime;
+  flex: 2;
+}
+
+
+.menu-obj h3 {
+  margin-top: 0px;
+}
+
+
+.menu-obj p {
+  
+}
+
+
+
+div.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+.form-checkout {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+  justify-content: center;
+}
+
+.form-checkout label {
+  margin-right: 10em;
+  font-size: 1em;
+}
+
+div i {
+  font-size: 10em;
+}
+
+/****************************************
+  Components
+*****************************************/

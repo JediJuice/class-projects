@@ -1,0 +1,441 @@
+/****************************************
+  Defaults -- all tags 
+*****************************************/
+html {
+    box-sizing: border-box;
+    color: #444;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+
+/*******************************************************************************************************************************************************
+  Layout
+*******************************************************************************************************************************************************/
+header > div {
+  margin-bottom: 8em;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+body {
+  margin: 0 auto;
+  font-family: 'Bitter', serif;
+  background: #fafafa;
+  color: #333;
+}
+
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*Navigation bar**************************************************************************/
+
+
+.logo {
+  margin: 5px;
+  position: absolute;
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  width: 219px;
+  height: 161px;
+  
+}
+
+.contact-us {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  left: 74%;
+  border: 3px solid black;
+  text-decoration: none;
+  top: 4%;
+  font-family: 'Exo 2', sans-serif;
+  text-transform: uppercase;
+  font-size: 16pt;
+}
+.primary-nav {
+  width: 50%;
+  margin: 0 auto;
+  
+
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+  font-size: 16pt;
+  text-transform: uppercase;
+
+  color: #333;
+  font-family: 'Exo 2', sans-serif;
+}
+
+li a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  
+ 
+}
+
+.dash-nav:hover ~ hr {
+  margin-left: 25%;
+}
+
+.food-nav:hover ~ hr {
+  margin-left: 50%;
+}
+
+.drink-nav:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: 3px;
+  width: 25%;
+  margin: 0;
+  background: #151414;
+  border: none;
+  transition: .4s ease-in-out;
+}
+
+/*navigation end***********************************************************************/
+
+/*Header Hero**************************************************************************/
+
+.hero {
+  height: 608px;
+  border: 2px solid #000;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+
+}
+
+.hero-container {
+  position: absolute;
+  top:0%;
+  left:0%;
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+
+.sell {
+  top:26%;
+  width:60%;
+  margin:0 auto;
+  text-align:center;
+  color:white;
+  position:relative;
+  font-weight:400;
+  opacity:.8;
+}
+
+.tagline {
+  width:100%;
+  color:white;
+  text-shadow:0 1px 1px black;
+  text-align:center;
+  top: 71%;
+  position:relative;
+  font-size: 3em;
+  text-transform:uppercase;
+  font-weight:700;
+  font-family: 'Bitter', serif;
+
+}
+.headline {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.hero .headline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgba(28,31,39, 0.6)
+}
+
+
+.hero video {
+  width: 100%;
+  height:auto;
+}
+
+.hero-container {
+  position: absolute;
+  top:0%;
+  left:0%;
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+#vid {
+  margin-top: 8em;
+  background-image: url(../images/Bigstock_81438860.mp4);
+  position:absolute;
+  z-index:0;
+}
+
+video #ivd {
+  width: 100%;
+}
+
+
+
+/*Hero Login**********************************************************************************/
+
+.hero-2 {
+
+  position: relative; 
+  width: 100%;
+}
+
+.hero-login {
+  background-color: lime;
+  position: relative; 
+  width: 100%;
+
+}
+
+.headline-two {
+  width: 100%;
+  color: white;
+  text-shadow: 0 1px 1px black;
+  text-align: center;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  top: -3%;
+}
+
+.login-logo {
+  margin: 5px;
+  position: absolute;
+  background-image: url(../images/logo_white.png);
+  background-size: cover;
+  width: 219px;
+  height: 161px;
+}
+
+.login-wrapper {
+
+}
+
+.forms {
+  display: flex;
+}
+
+.signup, .merchant {
+  position: relative;
+}
+.signup {
+  background-color: fuchsia;
+  
+}
+
+.merchant {
+  background-color: purple;
+
+}
+
+
+
+form input {
+      display: block;
+}
+
+
+
+
+
+
+
+.hero-img, .hero-3-img {
+/*  background-color: teal;
+  height: 300px*/
+}
+
+.how-to-wrapper {
+  display: flex;
+}
+.how-to-wrapper div {
+  flex: 1;
+  border: 2px solid white;
+  height: 200px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20pt;
+  text-align: center;
+}
+
+
+
+
+
+.google-maps {
+  background-color: maroon;
+  height: 300px
+}
+
+form.customer {
+    background-color: green;
+    margin-left: 50%;
+
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  text-align: center;
+  flex: 1;
+}
+
+.footer-copy {
+  text-align: center;
+  flex: 1;
+  color: white;
+  padding-top: 3%;
+  text-transform: uppercase;
+}
+
+.footer-social {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+
+.footer-social i {
+  color: white;
+
+}
+
+
+
+/****************************************
+  Components
+*****************************************/
+
+
+.hero-3-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: space-around;*/
+}
+
+.product-tile-wrapper {
+  width: 33.33%;
+  border-bottom: 1px solid #E9E9E9;
+  border-right: 1px solid #E9E9E9;
+  padding: 10px;
+ 
+}
+
+.product-tile-wrapper:nth-child(3n)  {
+ border-right: none;
+}
+
+.one {
+  /*background-color: silver;*/
+  position: relative;
+  height: 150%;
+  font-family: 'Covered By Your Grace', cursive;
+  
+}
+
+.two {
+  /*background-color: teal;*/
+  position: relative;
+
+}
+
+.two-a {
+  /*background-color: yellow;*/
+  text-align: center;
+  font-size: 35pt;
+ 
+}
+
+.testimonial {
+  text-align: center;
+  padding: 30px;
+  font-size: 26pt;
+}
+
+.two-a img {
+  border-radius: 100px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.two-b {
+  /*background-color: fuchsia;*/
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.two-c {
+  background-color: lime;
+  border: 2px solid white;
+
+}
+
+.tile-brand-price {
+  display: flex;
+}
+
+
+.three {
+  background-color: lime;
+  flex: 1;
+}
+
+
+.fa-5x {
+  font-size: 2em;
+}
+
+.headline-two p {
+  font-size: 26pt;
+
+}
+/*Google Maps Styles**************************************************************************/
+
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+

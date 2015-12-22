@@ -1,0 +1,150 @@
+/****************************************
+  Inherited Syles
+*****************************************/
+
+html {
+    box-sizing: border-box;
+    color: #444;
+    font: 12pt 'Open Sans', Arial;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+
+/****************************************
+  Defaults -- all tags 
+*****************************************/
+
+
+
+
+/****************************************
+  Layout
+*****************************************/
+
+main {
+    font-family: 'Bitter', serif;
+    color: black;
+}
+
+.dashboard {
+	display: flex;
+}
+
+.tile {
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #E9E9E9;
+  border-right: 1px solid #E9E9E9;
+  padding: 10px;
+  
+}
+
+.tile:nth-child(2n) {
+	border-right: none;
+}
+
+.tile h2 {
+	font-size: 4em;
+}
+
+div i {
+	font-size: 10em;
+}
+
+div.nav-wrapper {
+    margin-bottom: 8em;
+}
+/*Navigation bar**************************************************************************/
+
+header {
+ 
+  background-color: blue;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.logo {
+  margin: 5px;
+  position: absolute;
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  width: 219px;
+  height: 161px;
+}
+
+.contact-us {
+  background-color: yellow;
+  margin: 5px;
+  position: absolute;
+  left: 74%;
+  padding-left: 9%;
+  border: 3px solid black;
+}
+.primary-nav {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+  font-family: 'Exo 2', sans-serif;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+
+.dash-nav:hover ~ hr {
+  margin-left: 25%;
+}
+
+.food-nav:hover ~ hr {
+  margin-left: 50%;
+}
+
+.drink-nav:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background: #151414;
+  border: none;
+  transition: .4s ease-in-out;
+}
+
+/*navigation end********************************************************************/
+
+/****************************************
+  Components
+*****************************************/
+.fa-5x{
+  font-size: 10em;
+}
+/****************************************
+  Helpers
+*****************************************/

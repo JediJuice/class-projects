@@ -1,0 +1,152 @@
+/****************************************
+  Layout
+*****************************************/
+
+
+/*Navigation bar**************************************************************************/
+
+header {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo {
+  margin: 5px;
+  position: absolute;
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  width: 219px;
+  height: 161px;
+  
+}
+
+.contact-us {
+  background-color: yellow;
+  margin: 5px;
+  position: absolute;
+  left: 74%;
+  padding-left: 9%;
+  border: 3px solid black;
+}
+.primary-nav {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.dash-nav:hover ~ hr {
+  margin-left: 25%;
+}
+
+.food-nav:hover ~ hr {
+  margin-left: 50%;
+}
+
+.drink-nav:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background: #151414;
+  border: none;
+  transition: .4s ease-in-out;
+}
+
+/*navigation end********************************************************************/
+
+
+main {
+  display: flex;
+  margin-top: 8em;
+}
+
+div.left-panel {
+  flex: 1;
+  text-align: center;
+}
+
+div.form-wrapper {
+  flex: 1;
+}
+
+div.form-wrapper.hidden {
+  display: none
+}
+
+
+
+/*Media Obj********************************************************************/
+.link-wrapper {
+  text-decoration: none;
+}
+
+.link-wrapper:hover {
+  background-color: hsla(205, 54%, 70%, 0.99);
+}
+
+.img-media-obj {
+  flex: 1;
+}
+
+.text-media-obj {
+  flex: 4;
+}
+
+.text-media-obj h3 {
+  margin-top: 0px;
+}
+
+/*Tile Obj********************************************************************/
+
+.tile {
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.tile h2 {
+  font-size: 5em;
+}
+
+div i {
+  font-size: 10em;
+}
+
+/****************************************
+  Components
+*****************************************/
+.profile-field {
+  display: flex;
+}
+
+.profile-field label {
+  flex: 1;
+  font-size: 20pt;
+}
+
+.profile-field input {
+  flex: 1;
+  text-align: center;
+}
